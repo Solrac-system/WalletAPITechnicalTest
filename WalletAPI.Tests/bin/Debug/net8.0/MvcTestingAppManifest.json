@@ -1,0 +1,6 @@
+{
+  "WalletAPI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\srsho\\source\\repos\\WalletAPI\\WalletAPI.Application",
+  "WalletAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\srsho\\source\\repos\\WalletAPI\\WalletAPI",
+  "WalletAPI.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\srsho\\source\\repos\\WalletAPI\\WalletAPI.Domain",
+  "WalletAPI.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\srsho\\source\\repos\\WalletAPI\\WalletAPI.Infrastructure"
+}

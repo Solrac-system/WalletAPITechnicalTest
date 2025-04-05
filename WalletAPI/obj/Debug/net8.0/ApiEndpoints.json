@@ -1,0 +1,103 @@
+[
+  {
+    "ContainingType": "WalletAPI.Controllers.TransactionController",
+    "Method": "Create",
+    "RelativePath": "api/Transaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactionDto",
+        "Type": "WalletAPI.Application.DTOs.TransactionWriteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WalletAPI.Controllers.TransactionController",
+    "Method": "GetByWalletId",
+    "RelativePath": "api/Transaction/{walletId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "walletId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WalletAPI.Controllers.WalletController",
+    "Method": "Create",
+    "RelativePath": "api/Wallet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "walletDto",
+        "Type": "WalletAPI.Application.DTOs.WalletWriteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WalletAPI.Controllers.WalletController",
+    "Method": "Get",
+    "RelativePath": "api/Wallet/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WalletAPI.Controllers.WalletController",
+    "Method": "Update",
+    "RelativePath": "api/Wallet/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "walletDto",
+        "Type": "WalletAPI.Application.DTOs.WalletWriteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WalletAPI.Controllers.WalletController",
+    "Method": "Delete",
+    "RelativePath": "api/Wallet/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

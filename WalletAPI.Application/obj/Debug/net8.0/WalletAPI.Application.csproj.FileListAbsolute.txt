@@ -1,0 +1,15 @@
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Application\bin\Debug\net8.0\WalletAPI.Application.deps.json
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Application\bin\Debug\net8.0\WalletAPI.Application.dll
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Application\bin\Debug\net8.0\WalletAPI.Application.pdb
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Application\bin\Debug\net8.0\WalletAPI.Domain.dll
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Application\bin\Debug\net8.0\WalletAPI.Domain.pdb
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Application\obj\Debug\net8.0\WalletAPI.Application.csproj.AssemblyReference.cache
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Application\obj\Debug\net8.0\WalletAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Application\obj\Debug\net8.0\WalletAPI.Application.AssemblyInfoInputs.cache
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Application\obj\Debug\net8.0\WalletAPI.Application.AssemblyInfo.cs
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Application\obj\Debug\net8.0\WalletAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Application\obj\Debug\net8.0\WalletAP.9F69A000.Up2Date
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Application\obj\Debug\net8.0\WalletAPI.Application.dll
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Application\obj\Debug\net8.0\refint\WalletAPI.Application.dll
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Application\obj\Debug\net8.0\WalletAPI.Application.pdb
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Application\obj\Debug\net8.0\ref\WalletAPI.Application.dll

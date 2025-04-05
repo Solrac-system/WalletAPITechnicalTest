@@ -1,0 +1,11 @@
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Domain\bin\Debug\net8.0\WalletAPI.Domain.deps.json
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Domain\bin\Debug\net8.0\WalletAPI.Domain.dll
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Domain\bin\Debug\net8.0\WalletAPI.Domain.pdb
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Domain\obj\Debug\net8.0\WalletAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Domain\obj\Debug\net8.0\WalletAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Domain\obj\Debug\net8.0\WalletAPI.Domain.AssemblyInfo.cs
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Domain\obj\Debug\net8.0\WalletAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Domain\obj\Debug\net8.0\WalletAPI.Domain.dll
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Domain\obj\Debug\net8.0\refint\WalletAPI.Domain.dll
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Domain\obj\Debug\net8.0\WalletAPI.Domain.pdb
+C:\Users\srsho\source\repos\WalletAPI\WalletAPI.Domain\obj\Debug\net8.0\ref\WalletAPI.Domain.dll

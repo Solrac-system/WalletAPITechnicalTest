@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z+R4QgiD3F8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\srsho\\source\\repos\\WalletAPI\\WalletAPI.Application\\WalletAPI.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\srsho\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
+    "C:\\Users\\srsho\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\srsho\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\srsho\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\srsho\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

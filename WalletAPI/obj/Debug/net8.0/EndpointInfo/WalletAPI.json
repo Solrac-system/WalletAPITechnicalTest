@@ -1,0 +1,229 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "WalletAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Transaction": {
+      "post": {
+        "tags": [
+          "Transaction"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TransactionWriteDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TransactionWriteDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TransactionWriteDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Transaction/{walletId}": {
+      "get": {
+        "tags": [
+          "Transaction"
+        ],
+        "parameters": [
+          {
+            "name": "walletId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Wallet": {
+      "post": {
+        "tags": [
+          "Wallet"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WalletWriteDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WalletWriteDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WalletWriteDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Wallet/{id}": {
+      "get": {
+        "tags": [
+          "Wallet"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Wallet"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WalletWriteDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WalletWriteDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WalletWriteDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Wallet"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "TransactionWriteDto": {
+        "required": [
+          "type",
+          "walletId"
+        ],
+        "type": "object",
+        "properties": {
+          "walletId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "amount": {
+            "minimum": 0.01,
+            "type": "number",
+            "format": "double"
+          },
+          "type": {
+            "minLength": 1,
+            "pattern": "Debit|Credit",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "WalletWriteDto": {
+        "required": [
+          "documentId",
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "balance": {
+            "minimum": 0,
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

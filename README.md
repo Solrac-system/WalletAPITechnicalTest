@@ -41,7 +41,7 @@ Cuando se realiza una transacción, la lógica de la API ajusta automáticamente
 ## Ejemplo de Uso
 
 ### **Crear una Billetera**
-```bash
+
 curl -X POST http://localhost:5000/api/Wallet \
 -H "Content-Type: application/json" \
 -d '{
@@ -50,7 +50,8 @@ curl -X POST http://localhost:5000/api/Wallet \
   "balance": 500.00
 }'
 
-### **Crear una Billetera**
+### **Crear una Transacción (Credit)**
+
 curl -X POST http://localhost:5000/api/Transaction \
 -H "Content-Type: application/json" \
 -d '{
@@ -58,7 +59,7 @@ curl -X POST http://localhost:5000/api/Transaction \
   "amount": 200.00,
   "type": "Credit"
 }'
-
+### **Crear una Transacción (Debit)**
 curl -X POST http://localhost:5000/api/Transaction \
 -H "Content-Type: application/json" \
 -d '{
@@ -66,3 +67,46 @@ curl -X POST http://localhost:5000/api/Transaction \
   "amount": 300.00,
   "type": "Debit"
 }'
+
+## Errores Comunes
+
+### **Transacciones**
+- **`400 Bad Request`**:
+  - Ocurre si el monto es negativo o no se especifica un tipo válido (`Credit` o `Debit`).
+  - Ejemplo de respuesta:
+    ```json
+    {
+      "message": "Transaction amount must be greater than zero."
+    }
+    ```
+
+- **`404 Not Found`**:
+  - Ocurre si la billetera especificada no existe.
+  - Ejemplo de respuesta:
+    ```json
+    {
+      "message": "Wallet not found."
+    }
+    ```
+
+- **`400 Bad Request` (Saldo Insuficiente)**:
+  - Ocurre si se intenta realizar un débito mayor al saldo disponible.
+  - Ejemplo de respuesta:
+    ```json
+    {
+      "message": "Insufficient balance."
+    }
+    ```
+
+## Configuración
+
+### **Requisitos**
+- .NET 8 o superior
+- SQL Server LocalDB
+
+## Instalación
+1. Clonar el repositorio: `git clone https://github.com/Solrac-system/WalletAPITechnicalTest.git`
+2. Configurar la conexión a la base de datos en el archivo `appsettings.json`.
+3. Ejecutar las migraciones: `dotnet ef database update`.
+
+
